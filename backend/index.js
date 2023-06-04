@@ -10,6 +10,7 @@ const app = express();
 const whiteList = [process.env.ORIGIN1];
 
 
+// cors
 app.use(
     cors({
         origin: function(origin, callback) {
